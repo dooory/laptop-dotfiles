@@ -1,0 +1,21 @@
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+setopt notify
+unsetopt beep
+bindkey -e
+# End of lines configured by zsh-newuser-install
+# The following lines were added by compinstall
+zstyle :compinstall filename '/home/dory/.zshrc'
+zstyle ':completion:*' menu select
+zstyle ':completion::complete:*' gain-privilages 1
+
+autoload -Uz compinit promptinit
+compinit
+promptinit
+
+prompt redhat
+
+export EDITOR=nvim
+
+eval "$(zoxide init zsh)"
