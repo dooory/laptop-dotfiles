@@ -17,5 +17,6 @@ promptinit
 prompt redhat
 
 export EDITOR=nvim
+export MANPAGER="nvim +Man!"
 
 eval "$(zoxide init zsh)"
