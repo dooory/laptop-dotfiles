@@ -3,9 +3,7 @@ return {
 	dependencies = {
 		'saghen/blink.cmp',
 		{
-			'lukas-reineke/indent-blankline.nvim',
-			-- See `:help ibl`
-			main = 'ibl',
+			'saghen/blink.indent',
 			opts = {},
 		},
 	},
