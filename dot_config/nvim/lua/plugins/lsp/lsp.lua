@@ -2,10 +2,7 @@ return {
 	"neovim/nvim-lspconfig",
 	dependencies = {
 		'saghen/blink.cmp',
-		{
-			'saghen/blink.indent',
-			opts = {},
-		},
+		'saghen/blink.indent',
 	},
 
 	opts = {
