@@ -7,7 +7,7 @@ return {
 		require("mini.git").setup({})
 		require("mini.notify").setup({
 			lsp_progress = {
-				enabled = false
+				enable = false
 			}
 		})
 		require("mini.pairs").setup({})
